@@ -1,10 +1,10 @@
+import java.util.Scanner;
+
 public class App {
+    java.util.Scanner;
     public static void main (String args []){
-        char opcion;
         int opcionAP;
         int opcion123;
-        int resultado;
-        char x;
         Scanner sc = new Scanner(System.in);
 
         System.out.println("a.Seleccionar la figura");
@@ -12,10 +12,10 @@ public class App {
         System.out.println("c.Solicitar los atributos de la figura: lados,medidas, etc");
         System.out.println("d.Imprimir en pantalla el resultado de los calculos");
         System.out.println("x. Salir");
-        opcion = sc.nextInt().charAt(0);
-        x = sc.nextInt().charAt(0);
+        int opcion = sc.nextInt().charAt(0);
+        char x = sc.nextInt().charAt(0);
         opcion123= sc.nextInt().charAt();
-        resultado= sc.nextInt().charAt();
+        int resultado = sc.nextInt().charAt();
         opcionAP = sc.nextInt();
 
         switch (opcion){
